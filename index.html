@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Push Notifications With FCM</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Push Notifications With Firebas Cloud Messaging (FCM)</h1>
+      <button type="button" id="tombol">Allow Notification</button>
+      <div id="token"></div>
+      <div id="judul"></div>
+      <div id="pesan"></div>
+    </div>
+
+    <!-- Import SDK Firebase menggunakan CDN -->
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging-compat.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
